@@ -1,0 +1,8 @@
+#s-d-nav {
+	background-color: black !important;
+}
+
+.drop {
+	box-shadow: 6px 25px 48px -19px hsl(0deg 0% 60% / 40%);
+	border-radius: 8px;
+}
