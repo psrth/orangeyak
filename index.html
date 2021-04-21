@@ -553,8 +553,7 @@
                     <div class="col-lg-1 d-none d-lg-block isotope-item"></div>
                     <div class="col-md-5 col-lg-4 mt-md-160 isotope-item">
                         <a class="card card-portfolio card-default card-hover-frame show-on-scroll"
-                            href="https://indy.fit/" data-show-delay=80 data-show-duration=600
-                            data-show-distance=20>
+                            href="https://indy.fit/" data-show-delay=80 data-show-duration=600 data-show-distance=20>
                             <span class="card-img" data-cursor-style="cursor-circle" data-cursor-text="view">
                                 <img class="up" src="assets/images/portfolio/indy-lp.png" alt="">
                             </span>
@@ -1159,10 +1158,11 @@
                     <div class="d-none d-lg-block col-2"></div>
                     <div class="col-lg-6">
                         <p class="subtitle mb-30 text-muted">drop your email — we'll reach out!</p>
-                        <form action="#">
+                        <form name="email" method="POST" data-netlify="true" id="1">
                             <div class="form-group-overlay">
-                                <input class="form-control form-control-white" type="email" placeholder="Your Email *">
-                                <a href="#" class="btn btn-clean btn-with-ball text-white">send</a>
+                                <input name="email" class="form-control form-control-white" type="email"
+                                    placeholder="Your Email *">
+                                <submit href="#" class="btn btn-clean btn-with-ball text-white"></submit>
                             </div>
                         </form>
                     </div>
